@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
+  projects:
+    - name: zmk
+      remote: caksoylar
+      revision: add-zen-v1
+      import: app/west.yml
+  self:
+    path: config
